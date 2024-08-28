@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<plugin
+  xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  id="cordova-plugin-wkwebview-file-scheme"
+  version="0.0.1">
+  <name>cordova-plugin-wkwebview-file-scheme</name>
+  <description>Enable WKWebView file:/// scheme support</description>
+  <license>dejiren</license>
+  <repo>https://github.com/dejiren/cordova-plugin-wkwebview-file-scheme</repo>
+
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="WKWebViewFileScheme">
+        <param name="ios-package" value="WKWebViewFileScheme" />
+        <param name="onload" value="true" />
+      </feature>
+    </config-file>
+    <header-file src="src/ios/CDVViewController+WKWebViewFileScheme.h" />
+    <source-file src="src/ios/CDVViewController+WKWebViewFileScheme.m" />
+  </platform>
+</plugin>

@@ -1,0 +1,14 @@
+{
+  "name": "cordova-plugin-wkwebview-file-scheme",
+  "version": "0.0.1",
+  "cordova": {
+    "id": "cordova-plugin-wkwebview-file-scheme",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "description": "Enable WKWebView file:/// scheme support",
+  "repository": "git@github.com:dejiren/cordova-plugin-wkwebview-file-scheme.git",
+  "author": "KUDO Ken-ichi <kudo.k@wingarc.com>",
+  "license": "dejiren"
+}
